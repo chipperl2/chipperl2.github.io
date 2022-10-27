@@ -1,7 +1,18 @@
 body {
-    background:lightgreen;
-    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    background:grey;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+    .assignment {
+        display:flex;
+        padding: 10px;
+        background: lightgreen;
+    }
+
+    .assignment img {
+        width:200px;
+        padding: 10px;
+    }
 
 h1 {
     color:rgb(212, 141, 49);
