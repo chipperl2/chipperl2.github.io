@@ -1,20 +1,36 @@
 body {
-    background:grey;
+    background:lightsalmon;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-    .assignment {
-        display:flex;
-        padding: 10px;
-        background: lightgreen;
-    }
+.assignment {
+    display:flex;
+    padding: 10px;
+    margin:10px;
+    background: lightgrey;
+}
 
-    .assignment img {
-        width:200px;
-        padding: 10px;
-    }
+.assignment img {
+    width:200px;
+    margin:30px;
+    border: 4px dotted lightgray;
+}
+
+.assignment img:hover {
+    border: 4px dotted green;
+}
 
 h1 {
-    color:rgb(212, 141, 49);
-    text-align:center;
+    color:#b8860b;
+    text-align: center;
+}
+
+
+a {
+    text-decoration:none;
+    color:#DAA520;
+}
+
+a:hover {
+    color:#b8860b;
 }
