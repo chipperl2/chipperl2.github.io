@@ -3,9 +3,15 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.assignment {
+.assignments {
     display:flex;
-    padding: 10px;
+    flex-wrap:wrap;
+} 
+
+.assignment {
+    width:45%;
+    display:flex;
+    padding: 10px 25px;
     margin:10px;
     background: lightgrey;
 }
@@ -14,6 +20,8 @@ body {
     width:200px;
     margin:30px;
     border: 4px dotted lightgray;
+    display:block;
+    margins:auto;
 }
 
 .assignment img:hover {
